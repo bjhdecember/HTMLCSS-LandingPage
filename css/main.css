@@ -38,25 +38,27 @@ display: flex;
 }
 
 .btn{
-    padding: 6px 12px 6px 12px;
+    cursor: pointer;
+    border: 0;
+    padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4; 
 }
 
 .btn-default{
-    color:white;
+    color:#ffff;
     background-color: #faa541;
 }
 
 .btn-primary{
-    color: white;
+    color: #ffff;
     background-color: #364147;
 }
 
 .form-control{
     display: block;
-    padding: 6px 12px 6px 12;
-    border: solid 1px color #a0a0a0;
+    padding: 6px 12px;
+    border: solid 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
 }
@@ -66,7 +68,7 @@ font-size: 30px;
 color: #a0a0a0;
 }
 
-text-secondary{
+.text-secondary{
 font-size: 30px;
 color: #faa541;
 }
