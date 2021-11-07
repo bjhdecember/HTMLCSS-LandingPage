@@ -71,3 +71,35 @@ color: #faa541;
 font-size: 16px;
 color: #364147;
 }
+
+.header-nav{
+    border-bottom: 1px; color: #a0a0a0;}
+
+.brand{size: 170x85; margin: -15px 60px;}
+
+.logo{max-width: 100; height: auto;}
+
+.search-box{size: 330x30; padding: 6px 12px; border: 1px #a0a0a0;}
+
+.search-button{
+    background-color: #a0a0a0; 
+    color: #ffff; 
+    size: 100x30; 
+    border: 0; 
+    padding: 0;
+}
+
+.nav-list{
+    padding-left: 0; 
+    width: 575px; 
+    margin-top: 10px;
+    font: 16px; font: uppercase; 
+    font-weight: 700;
+word-spacing: 0.2px;
+}
+
+.profile{margin-left: 0;}
+
+.account{align-items: flex-end; padding: 15px; font: #364147 18px;}
+
+.profile-pic{size: 60x60; border-radius: 100px; max-width: 100%;}
