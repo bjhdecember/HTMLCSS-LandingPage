@@ -75,16 +75,27 @@ color: #364147;
 .header-nav{
     border-bottom: 1px; color: #a0a0a0;}
 
-.brand{size: 170x85; margin: -15px 60px;}
+.brand{
+    width: 170;
+    height: 85; 
+    margin-left: -15px;
+margin-right: 60px;
+}
 
-.logo{max-width: 100; height: auto;}
+.logo{max-width: 100%; height: auto;}
 
-.search-box{size: 330x30; padding: 6px 12px; border: 1px #a0a0a0;}
+.search-box{
+    width: 330px;
+    height: 30px; 
+    padding: 6px 12px; 
+    border: 1px solid #a0a0a0;
+}
 
 .search-button{
     background-color: #a0a0a0; 
     color: #ffff; 
-    size: 100x30; 
+    width: 100px;
+    height: 30px; 
     border: 0; 
     padding: 0;
 }
@@ -93,13 +104,28 @@ color: #364147;
     padding-left: 0; 
     width: 575px; 
     margin-top: 10px;
-    font: 16px; font: uppercase; 
-    font-weight: 700;
-word-spacing: 0.2px;
 }
 
-.profile{margin-left: 0;}
+.nav-list li a{
+    font-size: 16px; 
+    transform: uppercase; 
+    font-weight: 700;
+    word-spacing: 0.2px;
+}
 
-.account{align-items: flex-end; padding: 15px; font: #364147 18px;}
+.profile{margin-left: auto;}
 
-.profile-pic{size: 60x60; border-radius: 100px; max-width: 100%;}
+.account{
+    text-align: right; 
+    padding: 15px; 
+    font: #364147; 
+    font-size: 18px;
+}
+.account a{font-size: 14px;}
+
+.profile-pic{width: 60px; height: 60px; }
+
+.profile-pic img{
+border-radius: 100px; 
+max-width: 100%;
+}
