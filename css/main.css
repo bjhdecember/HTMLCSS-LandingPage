@@ -91,12 +91,12 @@ color: #364147;
     border: 1px solid #a0a0a0;
 }
 
-.search-button{
-    background-color: #a0a0a0; 
-    color: #ffff; 
+.search-button {
+    background-color: #a0a0a0;
     width: 100px;
-    height: 30px; 
-    border: 0; 
+    height: 30px;
+    color: #ffffff;
+    border: 0;
     padding: 0;
 }
 
@@ -106,20 +106,20 @@ color: #364147;
     margin-top: 10px;
 }
 
-.nav-list li a{
-    font-size: 16px; 
-    transform: uppercase; 
+.nav-list li a {
+    font-size: 16px;
+    text-transform: uppercase;
     font-weight: 700;
-    word-spacing: 0.2px;
+    letter-spacing: 0.2px;
 }
 
 .profile{margin-left: auto;}
 
-.account{
-    text-align: right; 
-    padding: 15px; 
-    font: #364147; 
+.account {
+    text-align: right;
+    padding: 15px;
     font-size: 18px;
+    color: #364147;
 }
 .account a{font-size: 14px;}
 
