@@ -45,10 +45,7 @@ display: flex;
     line-height: 1.4; 
 }
 
-.btn-default{
-    color: #ffff;
-    background-color: #faa541;
-}
+.btn-default { color: #ffffff; background-color: #faa541; }
 
 .btn-primary{
     color: #ffff;
